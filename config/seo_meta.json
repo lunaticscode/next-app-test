@@ -1,0 +1,25 @@
+{
+  "title": "ACME AppFront | Powered by Humanwater",
+  "titleTemplate": "%s - ACME Storefront",
+  "description": "Next.js App(Test Commerce) - https://www.nextjs.org/commerce",
+  "openGraph": {
+    "title": "ACME AppFront | Powered by Humanwater",
+    "description": "Next.js App(Test Commerce) - https://www.nextjs.org/commerce",
+    "type": "website",
+    "url": "https://nextjs.org/commerce",
+    "site_name": "Next.js Humanwater App",
+    "images": [
+      {
+        "url": "/card.png",
+        "width": "800",
+        "height": "600",
+        "alt": "Next.js Humanwater App"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@nextjs",
+    "site": "@nextjs",
+    "cardType": "summary_large_image"
+  }
+}

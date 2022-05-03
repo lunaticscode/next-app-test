@@ -3,13 +3,13 @@ import React, { FC, ReactNode, useCallback, useMemo } from "react";
 export interface UIContextStateProps {
   displaySidebar: boolean;
   openSidebar?: () => void;
-  closeSidbar?: () => void;
+  closeSidebar?: () => void;
   openModal?: (content: ReactNode) => void;
   closeModal?: () => void;
 }
 
 const initState: UIContextStateProps = {
-  displaySidebar: false,
+  displaySidebar: true,
 };
 
 export const UIContext = React.createContext<UIContextStateProps | any>(
